@@ -15,10 +15,7 @@ export default function Page() {
         <Card title="Ventes en attente" value="7" type="pending" />
         <Card title="Factures payées" value="16" type="invoices" />
       </div>
-      <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
-        <RevenueChart  />
-        <LatestInvoices  />
-      </div>
+      
     </main>
   );
 }
